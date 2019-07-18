@@ -10,10 +10,10 @@ Image controls in the browser with VIM like keybindings, you'll never need an im
 - j: scroll 50 pixels down
 - k: scroll 50 pixels up
 - l: scroll 50 pixel to the left
-- $: scroll all the way right
+- 0: scroll all the way left
 - G: scroll all the way down
 - g: scroll all the way up
-- 0: scroll all the way left
+- $: scroll all the way right
 
 ## Firefox build-in key bindings
 - Middle click: Scroll around the image with the mouse
