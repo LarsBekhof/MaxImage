@@ -59,10 +59,10 @@ const addMenuPopup = () => {
 			case 'j': moveDown(); break;
 			case 'k': moveUp(); break;
 			case 'l': moveRight(); break;
-			case 'H': moveLeft(true); break;
-			case 'J': moveDown(true); break;
-			case 'K': moveUp(true); break;
-			case 'L': moveRight(true); break;
+			case '0': moveLeft(true); break;
+			case 'G': moveDown(true); break;
+			case 'g': moveUp(true); break;
+			case '$': moveRight(true); break;
 		}
 	});
 };
