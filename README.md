@@ -19,3 +19,8 @@ Image controls in the browser with VIM like keybindings, you'll never need an im
 - Middle click: Scroll around the image with the mouse
 - ctrl+s: Save an image
 - /: Text search
+
+## I am working on
+- m: Move to direcotry whitch the image you're viewing is in
+- n: Move to the next image in the directory
+- b: Move to the previous image in the directory
