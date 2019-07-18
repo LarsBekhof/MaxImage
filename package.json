@@ -1,0 +1,18 @@
+{
+  "name": "maximage",
+  "version": "1.0.0",
+  "description": "Image controls in the browser, you'll never need an image viewer ever again!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "image",
+    "firefox-plugin"
+  ],
+  "author": "Lars Bekhof",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.0.1"
+  }
+}
