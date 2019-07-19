@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["index.js"]
+      "js": ["src/index.js"]
     }
   ],
   "browser_action": {
