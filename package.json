@@ -1,18 +1,22 @@
 {
-  "name": "maximage",
-  "version": "1.0.0",
-  "description": "Image controls in the browser, you'll never need an image viewer ever again!",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "image",
-    "firefox-plugin"
-  ],
-  "author": "Lars Bekhof",
-  "license": "ISC",
-  "devDependencies": {
-    "eslint": "^6.0.1"
-  }
+	"name": "maximage",
+	"version": "1.0.0",
+	"description": "Image controls in the browser, you'll never need an image viewer ever again!",
+	"private": true,
+	"scripts": {
+		"build": "webpack"
+	},
+	"keywords": [
+		"image",
+		"firefox-plugin"
+	],
+	"author": "Lars Bekhof",
+	"license": "ISC",
+	"devDependencies": {
+		"eslint": "^6.0.1",
+		"ts-loader": "^6.0.4",
+		"typescript": "^3.5.3",
+		"webpack": "^4.36.1",
+		"webpack-cli": "^3.3.6"
+	}
 }

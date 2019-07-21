@@ -1,18 +1,18 @@
 {
-  "version": "1",
-  "description": "Maximizes images, that's it",
-  "manifest_version": 2,
-  "name": "Image controls in the browser, you'll never need an image viewer ever again!",
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "js": [
-        "dist/maximage.js"
-      ]
-    }
-  ],
-  "browser_action": {
-    "default_title": "MaxImage",
-    "default_popup": "html/popup.html"
-  }
+	"version": "1",
+	"description": "Maximizes images, that's it",
+	"manifest_version": 2,
+	"name": "Image controls in the browser, you'll never need an image viewer ever again!",
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": [
+				"dist/bundle.js"
+			]
+		}
+	],
+	"browser_action": {
+		"default_title": "MaxImage",
+		"default_popup": "html/popup.html"
+	}
 }
